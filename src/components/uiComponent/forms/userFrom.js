@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { debounce, isValidPassword, isValidEmail } from '../../../utils/utils';
 
-const passwordRegex = RegExp("^(?=.*?[A-Z])(?=.*?[a-z]).{2,}$");
-
 export default function UserForm({setValue , initValue}){
     const [nameValid ,setNameValid] = useState(true);
     const [emailValid ,setEmailValid] = useState(true);
