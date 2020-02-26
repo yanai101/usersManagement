@@ -1,0 +1,24 @@
+.steps{
+    main{
+        padding-top: 15px;
+    }
+    span{
+        cursor: pointer;
+        width: 30px;
+        display: inline-block;
+        border: 1px solid var(--mainColor);
+        color:var(--mainColor);
+        text-align: center;
+        transition: all 0.6s ease;
+    }
+    .activeStep{
+        background:var(--mainColor);
+        color: #fff;
+    }
+    .navigationRight{
+        float: right;
+    }
+    .navigationLeft{
+        float: left;
+    }
+}
